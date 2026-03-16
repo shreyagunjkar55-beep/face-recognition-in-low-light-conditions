@@ -3,11 +3,11 @@
 A computer vision system designed to improve face recognition accuracy in low-light environments using image enhancement and deep learning.
 Technologies: Python, OpenCV, TensorFlow, MobileNetV2
 
-# Problem Statement
+## Problem Statement
 
 Face recognition systems perform poorly in low-light environments due to noise, low contrast, and poor illumination. This project aims to enhance facial images captured in low-light conditions and improve recognition accuracy using deep learning.
 
-#Methodology
+##Methodology
 
 The system follows the pipeline below:
 
@@ -18,7 +18,7 @@ The system follows the pipeline below:
 5. Hybrid deep learning model training (MobileNetV2 + CNN)
 6. Real-time face recognition
 
-# System Architecture
+## System Architecture
 
 Dataset Capture
         ↓
@@ -34,7 +34,7 @@ Hybrid Deep Learning Model
         ↓
 Real-Time Face Recognition
 
-# Technologies Used
+## Technologies Used
 
 - Python
 - OpenCV
@@ -42,7 +42,7 @@ Real-Time Face Recognition
 - NumPy
 - Scikit-learn
 
-# Project Structure
+## Project Structure
 
 low-light-face-recognition
 │
@@ -53,15 +53,16 @@ low-light-face-recognition
 ├── requirements.txt
 └── README.md
 
-Academic Project – B.Tech AI & Data Science  
-MIT World Peace University
-# Future Improvements
+## Future Improvements
 
 - Improve robustness in extremely dark environments
 - Use more advanced face detectors such as MTCNN
 - Train on a larger dataset
 - Deploy the model as a web application
 
-# Results
+## Results
 
 The system successfully detects and recognizes faces in low-light environments after enhancement.
+
+Academic Project – B.Tech CSE AI & Data Science  
+MIT World Peace University
