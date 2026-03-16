@@ -60,6 +60,15 @@ preprocessing.py → performs low-light enhancement and dataset preparation
 hybrid_model.py → trains the hybrid MobileNetV2 + CNN model  
 realtime_recognition.py → performs real-time face recognition using webcam
 
+## Research Work
+
+This project is part of a research paper titled:
+
+"Face Recognition in Low Light Conditions using Hybrid CNN Models"
+
+Accepted at: ETFI, 2026  
+The work proposes a hybrid CNN architecture combined with low-light enhancement techniques for improved face recognition performance.
+
 ## Future Improvements
 
 - Improve robustness in extremely dark environments
