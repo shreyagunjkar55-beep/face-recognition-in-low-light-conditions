@@ -44,6 +44,7 @@ Real-Time Face Recognition
 
 ## Project Structure
 
+```
 low-light-face-recognition
 │
 ├── dataset_generation.py
@@ -52,6 +53,12 @@ low-light-face-recognition
 ├── realtime_recognition.py
 ├── requirements.txt
 └── README.md
+```
+
+dataset_generation.py → captures face images from webcam  
+preprocessing.py → performs low-light enhancement and dataset preparation  
+hybrid_model.py → trains the hybrid MobileNetV2 + CNN model  
+realtime_recognition.py → performs real-time face recognition using webcam
 
 ## Future Improvements
 
